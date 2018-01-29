@@ -10,6 +10,9 @@
 :set ignorecase
 :set smartcase
 
+" Selection and Copy Paste
+:set virtualedit=all
+
 " History
 :set history=1000
 :set undolevels=1000
@@ -17,6 +20,9 @@
 " Show whitespace
 :set list
 :set listchars=tab:>.,trail:.,extends:#,nbsp:.
+
+" Wrapping
+:set formatoptions+=1
 
 " Tabs and whitespace
 :set shiftwidth=2
@@ -26,6 +32,7 @@
 
 " Other options
 :set mouse=a
+:set ruler
 
 " Themes and Highlighting
 :colorscheme slate
