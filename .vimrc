@@ -7,6 +7,8 @@
 :set incsearch
 :set showmatch
 :set matchtime=3
+:set ignorecase
+:set smartcase
 
 " History
 :set history=1000
