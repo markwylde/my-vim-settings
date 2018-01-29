@@ -5,6 +5,8 @@
 " Searching
 :set hlsearch
 :set incsearch
+:set showmatch
+:set matchtime=3
 
 " History
 :set history=1000
@@ -23,9 +25,11 @@
 " Other options
 :set mouse=a
 
-
 " Themes and Highlighting
-:highlight LineNr ctermfg=darkgrey
-
 :colorscheme slate
+
 :syntax on
+
+:hi LineNr ctermfg=darkgrey
+:hi Search ctermfg=black ctermbg=yellow guibg=NONE guifg=NONE
+:hi IncSearch ctermfg=black ctermbg=darkyellow guibg=NONE guifg=NONE
