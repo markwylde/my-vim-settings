@@ -1,3 +1,5 @@
+" curl -L vim.markwylde.co.uk > ~/.vimrc
+
 " Gutter
 :set number
 :set relativenumber
