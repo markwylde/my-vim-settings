@@ -1,8 +1,5 @@
 " curl -L vim.markwylde.co.uk > ~/.vimrc
 
-" Stop mouse override
-:set mouse-=a
-
 " Gutter
 :set number
 :set relativenumber
@@ -36,7 +33,7 @@
 :set autoindent
 
 " Other options
-:set mouse=a
+:set mouse-=r
 :set ruler
 
 " Themes and Highlighting
