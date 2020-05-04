@@ -1,5 +1,8 @@
 " curl -L vim.markwylde.co.uk > ~/.vimrc
 
+™ Stop mouse override
+:set mouse-=a
+
 " Gutter
 :set number
 :set relativenumber
