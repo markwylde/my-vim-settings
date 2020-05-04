@@ -1,6 +1,6 @@
 " curl -L vim.markwylde.co.uk > ~/.vimrc
 
-™ Stop mouse override
+" Stop mouse override
 :set mouse-=a
 
 " Gutter
